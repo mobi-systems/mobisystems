@@ -133,7 +133,7 @@ body {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url("../img/header.jpg");
+  background-image: url("../img/tools.jpg?2");
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -229,3 +229,14 @@ header.masthead {
     background-color: #f2f2f2 !important; }
   .btn-primary:active, .btn-primary:focus {
     box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important; }
+
+header:before {
+    display: block;
+    position: absolute;
+    content: ' ';
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background: rgba(0,0,0,0.3);
+    z-index: 0;
+}
