@@ -132,6 +132,7 @@ body {
 
 header.masthead {
   padding-top: 10rem;
+  height: 100%;
   padding-bottom: calc(10rem - 56px);
   background-image: url("../img/tools.jpg?2");
   background-position: center center;
